@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.commonColour {
+  background-color: #3559c7 !important;
+}
+
+a:hover {
+  color: orange !important;
+}
+
+.about {
+  margin: 10vh;
+  background-image: url(../images/photo.png);
+  background-size: cover;
+  width: 70vw;
+  height: 70vh;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.us {
+  width: 30vw;
+  margin-left: 60vw;
+  position: absolute;
+}
+
+.consultation {
+  background-image: url("../images/photo2.png");
+  background-size: cover;
+}
+
+.container {
+  background-image: url(../images/hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px !important;
+}
+
+.hero-box {
+  margin-left: 34rem;
+  padding: 0px;
+}
+
+.list-head {
+  border-left: 2px solid blue;
+}
+
+.experience {
+  position: relative;
+}
+
+.clients {
+  z-index: 1;
+  border: 1px solid whitesmoke;
+  /* position:absolute; */
+}
+
+.completed {
+  z-index: -1;
+  border: 1px solid whitesmoke;
+  /* position:absolute; */
+}
+
+.awards {
+  z-index: 1;
+  border: 1px solid whitesmoke;
+  /* position:absolute; */
+}
+
+.years {
+  z-index: -1;
+  border: 1px solid whitesmoke;
+  /* position:absolute; */
+}
+
+.projectbutton {
+  margin-left: 60vw !important;
+}
+
+.message {
+  align-items: center !important;
+}
