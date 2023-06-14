@@ -18,17 +18,14 @@
     />
   </head>
   <body>
-    <!-- Navbar Start -->
 
+    <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <div class="navbar-brand text-primary fw-bolder" href="#">
+        <div class="navbar-brand commonText fw-bolder" href="#">
           <img src="./images/box.png" alt="symbol" />
           <em>The</em>Box
         </div>
-        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button> -->
         <div>
           <ul class="navbar-nav px-5">
             <li class="nav-item px-3">
@@ -52,43 +49,42 @@
     </nav>
     <!-- Navbar End -->
 
-    <!-- Top Section Start -->
-    <section class="hero-section">
-      <div class="container d-flex justify-content-center align-items-center">
+    <!-- Hero Section Start -->
+    <section>
+      <div class="container d-flex justify-content-center align-items-center w-100">
         <div>
           <h1>Building Things Is Our Mission</h1>
         </div>
-        <div
-          class="bg-primary text-center align-self-end hero-box commonColour"
-        >
-          <h5>Feature Projects</h5>
-          <p>The National University of Architecture</p>
-          <button type="button" class="btn btn-dark fs-5 w-48">
+        <div class="commonColour text-center align-self-end hero-box commonColour" >
+          <h4 class="text-white mt-3">Feature Projects</h4>
+          <p class="text-white fs-4">The National University of Architecture</p>
+
+          <button type="button" class="featureButton btn btn-dark fs-5">
             &larr; Back
           </button>
-          <button type="button" class="btn btn-dark fs-5 w-48">
+          <button type="button" class="featureButton btn btn-dark fs-5">
             Next &rarr;
           </button>
         </div>
       </div>
     </section>
-    <!-- Top Section End -->
+    <!-- Hero Section End -->
 
     <!-- Our Reputation Start -->
     <section>
       <h2 class="text-center my-5">Our Reputation</h2>
-      <div class="d-lg-flex p-5 m-5">
-        <div class="m-5 p-3 border border-black">
+      <div class="reputation d-flex flex-lg-row flex-column p-5 m-5">
+        <div class="item m-5 p-3 border border-black">
           <img src="./images/icon1.png" alt="symbol" />
           <h5>Best Services</h5>
           Nullam senectus porttitor in eget. Eget rutrum leo interdum.
         </div>
-        <div class="m-5 p-3 border border-black">
+        <div class="item m-5 p-3 border border-black">
           <img src="./images/icon1.png" alt="symbol" />
           <h5>Best Teams</h5>
           Cursus semper tellus volutpat aliquet lacus.
         </div>
-        <div class="m-5 p-3 border border-black">
+        <div class="item m-5 p-3 border border-black">
           <img src="./images/icon2.png" alt="symbol" />
           <h5>Best Designs</h5>
           Ultricies at ipsum nunc, tristique nam lectus.
@@ -99,25 +95,23 @@
 
     <!-- About Us Start -->
     <section>
-      <div class="about">
-        <div class="us p-4 text-white bg-primary mt-5 commonColour">
-          <h2>About Us</h2>
-          <p>
-            For more than 30 years we have been delivering world-class
-            construction and we’ve built many lasting relationships along the
-            way.
-          </p>
-          <p class="mb-6">
-            We’ve matured into an industry leader and trusted resource for those
-            seeking quality, innovation and reliability when building in the
-            U.S.
-          </p>
-          <br /><br /><br />
-          <button type="button" class="btn btn-light">
-            More on Our History
-          </button>
-        </div>
+    <div class="d-xl-flex">
+      <div class="about ms-5">
+        <img class="img-fluid w-100" src="../images/photo.png" alt="photo">
       </div>
+      <div class="us commonColour p-4 text-white mx-5 mt-5">
+        <h2>About Us</h2>
+        <p>
+          For more than 30 years we have been delivering world-class
+          construction and we’ve built many lasting relationships along the way.
+        </p>
+        <p class="mb-6 pb-5">
+          We’ve matured into an industry leader and trusted resource for those
+          seeking quality, innovation and reliability when building in the U.S.
+        </p>
+        <button type="button" class="btn btn-light">More on Our History</button>
+      </div>
+    </div>
     </section>
     <!-- About Us End -->
 
@@ -125,84 +119,79 @@
     <section>
       <h2 class="text-center">Services</h2>
       <div
-        class="d-lg-flex m-5 p-5 gap-5 fs-1 text-center justify-content-center"
+        class="reputation d-flex flex-lg-row flex-column m-5 p-5 gap-5 fs-1 text-center justify-content-center"
       >
-        <div class="border border-black m-5 p-5">
+        <div class="item border border-black m-5 p-5">
           <img class="img-fluid" src="./images/icon3.png" alt="symbol" />
           <hr />
-          <h4>Construction</h4>
+          <h4 class="commonText">Construction</h4>
         </div>
-        <div class="border border-black m-5 p-5 bg-primary">
+        <div class="item commonColour border border-black m-5 p-5">
           <img class="img-fluid" src="./images/icon4.png" alt="symbol" />
           <hr />
-          <h4>Renovation</h4>
+          <h4 class="text-white">Renovation</h4>
         </div>
-        <div class="border border-black m-5 p-5">
+        <div class="item border border-black m-5 p-5">
           <img class="img-fluid" src="./images/icon5.png" alt="symbol" />
           <hr />
-          <h4>Consultation</h4>
+          <h4 class="commonText">Consultation</h4>
         </div>
       </div>
       <div
-        class="d-lg-flex m-5 p-5 gap-5 fs-1 text-center justify-content-center"
+        class="reputation d-flex flex-lg-row flex-column m-5 p-5 gap-5 fs-1 text-center justify-content-center"
       >
-        <div class="border border-black m-5 p-5 bg-primary">
+        <div class="item border border-black m-5 p-5 commonColour">
           <img class="img-fluid" src="./images/icon6.png" alt="symbol" />
           <hr />
-          <h4>Repair Services</h4>
+          <h4 class="text-white">Repair Services</h4>
         </div>
-        <div class="border border-black m-5 p-5">
+        <div class="item border border-black m-5 p-5">
           <img class="img-fluid" src="./images/icon7.png" alt="symbol" />
           <hr />
-          <h4>Architecture</h4>
+          <h4 class="commonText">Architecture</h4>
         </div>
-        <div class="border border-black m-5 p-5 bg-primary">
+        <div class="item border border-black m-5 p-5 commonColour">
           <img class="img-fluid" src="./images/icon8.png" alt="symbol" />
           <hr />
-          <h4 class="px-4">Electric</h4>
+          <h4 class="px-4 text-white">Electric</h4>
         </div>
       </div>
     </section>
     <!-- Services End -->
 
     <!-- Experience Start -->
-    <section>
-      <div
-        class="d-lg-flex m-5 p-5 gap-5 fs-3 text-center justify-content-center"
-      >
-        <div class="experience">
-          <div class="clients p-3">
-            <img src="./images/icon9.png" alt="symbol" />
-            <b>84</b><br />
-            | Happy Clients
-          </div>
-          <div class="completed p-3">
-            <img src="./images/icon10.png" alt="symbol" />
-            <b class="big">123</b> <br />
-            | Projects Completed
-          </div>
-          <div class="awards p-3">
-            <img src="./images/icon11.png" alt="symbol" />
-            <b>37</b> <br />
-            | Awards Win
-          </div>
-          <div class="years p-3">
-            <img src="./images/icon12.png" alt="symbol" />
-            <b>30</b> <br />
-            | Years in Business
-          </div>
+    <section class="experience d-flex flex-column flex-lg-row justify-content-evenly mt-5">
+      <div class="experience-left d-flex flex-column flex-lg-row align-items-center gap-5">
+        <div class="happy bg-white position-relative">
+          <img class="position-absolute top-0 start-100 translate-middle w-25 bg-white" src="./images/icon9.png" alt="happy" />
+          <p class="fw-bold px-3">84</p>
+          <p class="px-3">| Happy Clients</p>
         </div>
-        <div>
-          <b class="text-primary fs-1">
-            30 Years <br />
-            Experience</b
-          >
-          <p class="pb-5">
-            Our company has been the leading provided<br />
-            construction services to clients throughout the USA since 1988.
-          </p>
-          <button type="button" class="btn btn-primary fs-4">Contact Us</button>
+        <div class="projects bg-white position-relative">
+          <img class="position-absolute top-0 start-0 translate-middle w-25 bg-white" src="./images/icon10.png" alt="happy" />
+          <p class="fw-bold px-4">123</p>
+          <p class="px-4">| Projects Completed</p>
         </div>
+        <div class="awards bg-white position-relative">
+          <img class="position-absolute top-0 start-100 translate-middle w-25 bg-white" src="./images/icon11.png" alt="happy" />
+          <p class="fw-bold px-3">37</p>
+          <p class="px-3">| Awards Win</p>
+        </div>
+        <div class="years bg-white position-relative">
+          <img class="position-absolute top-100 start-100 translate-middle w-25 bg-white" src="./images/icon12.png" alt="happy" />
+          <p class="fw-bold px-3">30</p>
+          <p class="px-3">| Years in Business</p>
+        </div>
+      </div>
+      <div class="experience-right mt-5 py-5 ps-2 align-self-lg-center">
+        <h2 class="commonText">30 Years Experience</h2>
+        <p>
+          Our company has been the leading provided construction services to
+          clients throughout the USA since 1988.
+        </p>
+        <button type="button" class="btn btn-primary commonColour">
+          Contact Us
+        </button>
       </div>
     </section>
     <!-- Experience End -->
@@ -226,41 +215,40 @@
 
     <!-- Projects Start -->
     <section>
-      <br /><br />
-      <h3 class="text-center">Projects</h3>
-      <div class="d-lg-flex gap-5 m-5 justify-content-between">
-        <div class="projects">
-          <ul class="text">
-            <li class="py-3 list-unstyled fw-bold fs-3 list-head">All</li>
-            <li class="py-3 list-unstyled">Commercial</li>
-            <li class="py-3 list-unstyled">Residential</li>
-            <li class="py-3 list-unstyled">Other</li>
+      <h3 class="text-center fw-bolder">Projects</h3>
+      <div class="d-md-flex gap-5 m-5 justify-content-between">
+        <div>
+          <ul>
+            <li class="py-3 list-unstyled fw-bold fs-4 list-head commonText">All</li>
+            <li class="py-3 list-unstyled fw-bold">Commercial</li>
+            <li class="py-3 list-unstyled fw-bold">Residential</li>
+            <li class="py-3 list-unstyled fw-bold">Other</li>
           </ul>
         </div>
         <div class="d-lg-flex gap-5 mx-5">
-          <div class="bg-primary">
-            <img src="./images/photo3.png" />
+          <div class="commonColour text-white">
+            <img src="./images/photo3.png" class="w-100"/>
             <h4>Wildstone Infra Hotel</h4>
             <p>2715 Ash Dr. San Jose, South Dakota</p>
             <div class="bg-white p-4"></div>
-            <img src="./images/photo4.png" />
+            <img src="./images/photo4.png" class="w-100"/>
             <h4>Wish Stone Building</h4>
             <p class="para2">2972 Westheimer Rd. Santa Ana, Illinois</p>
           </div>
-          <div class="bg-primary">
-            <img src="./images/photo5.png" />
+          <div class="commonColour text-white">
+            <img src="./images/photo5.png" class="w-100"/>
             <h4>Mr. Parkinston’s House</h4>
             <p class="para2">3517 W. Gray St. Utica, Pennsylvania</p>
             <div class="bg-white p-4"></div>
-            <img src="./images/photo6.png" />
+            <img src="./images/photo6.png" class="w-100"/>
             <h4>Oregano Height</h4>
             <p>2464 Royal Ln. Mesa, New Jersey</p>
           </div>
         </div>
       </div>
-      <div class="projectbutton">
-        <button type="button" class="btn btn-dark m-5 fs-4">&larr; Back</button>
-        <button type="button" class="btn btn-dark fs-4">Next &rarr;</button>
+      <div class="projectButton d-flex">
+        <button type="button" class="projectButtonBack btn btn-dark fs-5 mb-5">&larr; Back</button>
+        <button type="button" class="projectButtonNext btn btn-dark fs-5 mb-5 mx-5">Next &rarr;</button>
       </div>
     </section>
     <!-- Projects End -->
@@ -299,7 +287,7 @@
               placeholder="Phone"
             />
           </div>
-          <div class="d-flex justify-content-center">
+          <div class="d-flex justify-content-center align-items-center">
             <textarea
               class="message form-control my-3 w-50 mx-5"
               rows="5"
@@ -309,36 +297,55 @@
           </div>
           <br />
           <p class="form-text">* indicates a required field</p>
-          <button type="button" class="btn btn-primary fs-4">Submit</button>
+          <button type="button" class="commonColour btn btn-primary fs-4">
+            Submit
+          </button>
         </form>
       </div>
     </section>
     <!-- Form End -->
 
     <!-- Footer Start -->
-    <div class="d-lg-flex fs-4">
-      <div class="m-5 text-primary">
-        Address:
-        <p class="text-black">6391 Elgin St. Celina, Delaware 10299</p>
-        Phone:
-        <p class="text-black">+84 1102 2703</p>
-        Email:
-        <p class="text-black">hello@thebox.com</p>
-        <div class="fw-bolder">
+  <footer>
+    <div class="d-lg-flex">
+      <div class="m-5 commonText fs-5">
+        <div class="d-flex mx-5">
+          Address:
+          <p class="text-black mx-3">6391 Elgin St. Celina, Delaware 10299</p>
+        </div>
+        <div class="d-flex mx-5">
+          Phone:
+          <p class="text-black mx-5">+84 1102 2703</p>
+        </div>
+        <div class="d-flex mx-5">
+          Email:
+          <p class="text-black mx-5">hello@thebox<br>.com</p>
+        </div>
+        <div class="fw-bolder mx-5 my-2">
           <img src="./images/box.png" alt="symbol" />
           <em>The</em>Box
         </div>
       </div>
       <div class="m-5 fs-4">
-        Newsletter:<br />
-        <input
-          type="email"
-          class="form-control fs-4 my-2"
-          placeholder="Your email here"
-        />
-        <button type="button" class="btn btn-secondary fs-4">Subsribe</button
-        ><br />
-        <div class="my-5">
+        <span class="mx-5">Newsletter:</span><br />
+        <div class="d-xl-flex mx-5">
+          <div>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control fs-4 my-2"
+              placeholder="Your email here"
+            />
+          </div>
+          <button
+            type="button"
+            class="footerButton btn btn-secondary fs-4 h-25 my-2 mx-2"
+          >
+            Subsribe
+          </button>
+        </div>
+        <div class="my-5 mx-5">
           Social:<br />
           <i class="fa-brands fa-linkedin fs-1 m-1"></i>&nbsp;
           <i class="fa-brands fa-facebook fs-1 m-1"></i>&nbsp;
@@ -346,7 +353,10 @@
         </div>
       </div>
     </div>
-    <div class="bg-primary p-3">TheBox Company © 2022. All Rights Reserved</div>
+    <div class="commonColour p-3">
+      TheBox Company © 2022. All Rights Reserved
+    </div> 
+  </footer>
     <!-- Footer End -->
   </body>
 </html>

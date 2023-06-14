@@ -11,24 +11,12 @@ body {
   background-color: #3559c7 !important;
 }
 
+.commonText {
+  color: #3559c7 !important;
+}
+
 a:hover {
   color: orange !important;
-}
-
-.about {
-  margin: 10vh;
-  background-image: url(../images/photo.png);
-  background-size: cover;
-  width: 70vw;
-  height: 70vh;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-.us {
-  width: 30vw;
-  margin-left: 60vw;
-  position: absolute;
 }
 
 .consultation {
@@ -44,7 +32,7 @@ a:hover {
 }
 
 .hero-box {
-  margin-left: 34rem;
+  margin-left: 30vw;
   padding: 0px;
 }
 
@@ -52,38 +40,122 @@ a:hover {
   border-left: 2px solid blue;
 }
 
+.projects,
+.awards,
+.years,
+.happy {
+ box-shadow: 0px 8.78079px 11.7077px -2.92693px rgba(17, 24, 39, 0.1),
+ 0px 2.92693px 4.39039px -1.46346px rgba(17, 24, 39, 0.05);
+ width: 15rem;
+ height: 6rem;
+}
+
+.projectButtonBack {
+  margin-left: 47vw !important;
+  width: 20vw;
+}
+
+.projectButtonNext {
+  width: 20vw;
+}
+
+.featureButton {
+  width: 11vw;
+}
+
+.footerButton {
+  background-color: #f9995d !important;
+}
+
 .experience {
   position: relative;
 }
 
-.clients {
-  z-index: 1;
-  border: 1px solid whitesmoke;
-  /* position:absolute; */
+@media (min-width: 1440px) {
+  .about {
+    position: relative !important;
+  }
+
+  .us {
+    position: absolute !important;
+    left: 35rem;
+  }
+
+  .projectButton {
+    margin-left: 10vw !important;
+  }
+
+  /* .projectButtonNext{
+    margin-right: 10vw;
+  } */
+
+  .item{
+    width: 20vw;
+  }
 }
 
-.completed {
-  z-index: -1;
-  border: 1px solid whitesmoke;
-  /* position:absolute; */
+@media (min-width: 1024px) {
+  .projectButtonBack {
+    margin-left: 30vw !important;
+  }
+
+  .experience-right {
+    width: 20rem !important;
+  }
+
+  /* .projectButtonBack {
+    margin-left: 40vw !important;
+  } */
+  .experience-left {
+    position: relative;
+    width: 47rem;
+    height: 29rem;
+  }
+  .happy {
+    position: absolute;
+    left: 21rem;
+    top: -5rem;
+    z-index: 1;
+  }
+  .projects {
+    position: absolute;
+    z-index: -1;
+  }
+  .awards {
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+    z-index: 2;
+  }
+  .years {
+    position: absolute;
+    top: 10rem;
+    right: 23rem;
+  }
+
 }
 
-.awards {
-  z-index: 1;
-  border: 1px solid whitesmoke;
-  /* position:absolute; */
+@media(max-width: 425px) {
+  .featureButton {
+    width: 16vw;
+  }
+
+  .item{
+    width: 60vw;
+  }
+
+  .us{
+    width: 60vw;
+  }
+
+  .reputation{
+    align-items: center;
+  }
 }
 
-.years {
-  z-index: -1;
-  border: 1px solid whitesmoke;
-  /* position:absolute; */
-}
-
-.projectbutton {
-  margin-left: 60vw !important;
-}
-
-.message {
-  align-items: center !important;
+@media(min-width: 768px)
+{
+  .projectButtonBack {
+    margin-left: 40vw !important;
+  }
 }
